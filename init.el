@@ -175,6 +175,9 @@
 
 (provide 'init)
 
+(require 'yasnippet)
+(yas-global-mode 1)
+
 ;; Local Variables:
 ;; coding: utf-8
 ;; no-byte-compile: t
